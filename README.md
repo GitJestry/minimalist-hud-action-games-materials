@@ -1,32 +1,32 @@
-# Supplementary Materials for “Toward Minimalist HUDs in Action Games: Longitudinal Trends and Player Perception”
+# Supplementary Materials for “Toward Minimalist HUDs? Longitudinal Trends and Player Perceptions in Action-Adventure and Action-RPG Games”
 
-This repository contains the supplementary materials supporting the paper’s corpus construction, expert HUD coding, stimulus documentation, and survey implementation. It is intended to make the methodological basis of the project transparent and to provide enough documentation for readers to understand how the corpus was delimited, how the coding framework was applied, and how the clip-based user study was implemented.
+This repository contains the supplementary materials for the paper’s corpus construction, expert HUD coding, stimulus documentation, and survey implementation. Its purpose is to make the methodological basis of the project transparent and to provide readers with the materials needed to understand how the corpus was delimited, how the coding framework was applied, and how the clip-based user study was conducted.
 
 ## Repository structure
 
 ### Root-level materials
 
 - `hud_minimalism_codebook.pdf`  
-  Full coding manual for the expert analysis of HUD minimalism. The document defines the anchor-based coding framework used to derive the four reported dimensions: Diegetic Integration (DIEG), Persistence (PERS), Density (DENS), and Contextuality (CONT). It also specifies the observation rules, weighting logic, edge-case handling, and the mathematical rationale behind the scoring procedure.
+  Full coding manual for the expert analysis of HUD minimalism. The document defines the anchor-based framework used to derive the four reported dimensions—Diegetic Integration (DIEG), Persistence (PERS), Density (DENS), and Contextuality (CONT)—and specifies the observation rules, weighting logic, and edge-case handling used during coding.
 
 - `exclusion_rationales.pdf`  
-  Documentation of titles considered but excluded from the final corpus, together with the methodological reasoning for each exclusion. These rationales are included to make corpus construction explicit and reproducible.
+  Documentation of titles considered but excluded from the final corpus, together with the reasoning for each exclusion decision. This file is included to make corpus construction explicit and transparent.
 
 - `stimulus_timestamps_links.pdf`  
-  Documentation of the public gameplay sources used for the six clips in the user study, including source links and extraction timestamps for each selected segment.
+  Documentation of the public gameplay sources used for the six clips in the user study, including source links and exact extraction timestamps for each selected segment.
 
 - `README.md`  
   Overview of the repository and its contents.
 
 ### Survey materials
 
-The folder `survey_data/` contains the survey documentation and data exports associated with the clip-based user study. Further documentation for the survey materials and exports are in the Folder-specific `README.md`  
+The folder `survey_data/` contains the survey documentation and data exports associated with the clip-based user study. Additional details about the survey files and exports are provided in the folder-specific `README.md`.
 
-## Scope of the supplementary materials
+## What these materials document
 
 The materials in this repository support four parts of the project.
 
-First, the coding manual documents how HUD minimalism was operationalized as a relative information-distribution strategy rather than as the mere absence of interface elements. Instead of counting raw widgets, the framework codes gameplay-relevant information anchors and evaluates how they are communicated across ordinary gameplay. This approach was used to derive the four expert-rated dimensions reported in the paper.
+First, the codebook documents how HUD minimalism was operationalized as an information-distribution strategy rather than as the simple absence of interface elements. Instead of counting raw widgets, the framework codes gameplay-relevant information anchors and evaluates how they are communicated during ordinary play. This procedure was used to derive the four expert-coded dimensions reported in the paper.
 
 Second, the exclusion document records why certain prominent titles were not included in the final corpus. These decisions were made to preserve comparability within a bounded sample of real-time, character-centric 3D action-adventure and action-RPG games.
 
@@ -40,4 +40,4 @@ The expert coding focused on the mature default HUD as ordinarily encountered on
 
 ## Intended use
 
-This repository is meant as a documentation and transparency package for the paper. It is not intended as a full gameplay archive, but as a structured record of the materials and rules used to construct the corpus, score the HUD dimensions, select the study stimuli, and document the survey implementation.
+This repository is intended as a transparency and documentation package for the paper. It is not meant to function as a full gameplay archive, but as a structured record of the materials and rules used to construct the corpus, score the HUD dimensions, select the study stimuli, and document the survey implementation.
